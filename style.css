@@ -1,3 +1,133 @@
-.span {
-    color: blue;
+#navbar {
+    background-color: rgb(78, 78, 78);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border: 3px groove black;
+    border-radius: 5px;
+    transition: fade-out 1s ease-out;
+}
+
+#navbar nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+#homepage {
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none; 
+}
+
+#homepage:hover {
+    color: rgb(231, 134, 255);
+    text-decoration: underline;
+}
+    
+#info {
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+#info:hover {
+    color: rgb(231, 134, 255);
+    text-decoration: underline;
+}
+
+#main__page {
+    background-color: rgb(78, 78, 78);
+    color: white;
+    padding: 20px;
+    border: 3px groove black;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+#main__page .span {
+    color: seagreen;
+    font-weight: italic;
+}
+
+#semantic__info {
+    background-color: rgb(78, 78, 78);
+    color: white;
+    padding: 20px;
+    border: 3px groove black;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#semantic__info .structure {
+    background-color: rgb(78, 78, 78);
+    color: white;
+    padding: 20px;
+    border: 5px groove black;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.structure h3 {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#semantic__info .reason-why {
+    background-color: rgb(78, 78, 78);
+    color: white;
+    padding: 20px;
+    border: 5px groove black;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.reason-why h3 {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.reason-why h6 {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.footer {
+    background-color: rgb(78, 78, 78);
+    color: white;
+    padding: 20px;
+    border: 5px groove black;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#github-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#github-link:hover {
+    color: rgb(231, 134, 255);
+    text-decoration: underline;
+}
+
+#background {
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/29/03/53/space-1867275_1280.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1; /* Fully visible */
+  }
+  to {
+    opacity: 0; /* Fully transparent */
+  }
+}
+
+.fade-out {
+  animation: fadeOut 1s forwards; /* 1s duration and forwards to maintain end state */
 }

@@ -4,45 +4,115 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Simple HTML</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <header>
-        <section id="navbar homepage">
-            <nav>
-                <a href="">Home</a>
-                <a href="">About</a>
-            </nav>
-        </section>
+      <section id="navbar homepage">
+        <nav>
+          <a href="#main__page">Home</a>
+          <a href="#semantic__info">Semantic Info</a>
+        </nav>
+      </section>
     </header>
 
     <main>
-        <section id="main__page">
-            <div>
-                Line One
-            </div>
+      <section id="main__page">
+        <div>Line One</div>
 
-            <div>
-                Line Two
-            </div>
+        <div>Line Two</div>
 
-            <div>
-                Line Three
-                <p>It is important to know that despite this being a 'p' element, it is still a block element! It takes up it's own space even if it is inside of other block elements!</p>
-            </div>
+        <div>
+          Line Three
+          <p>
+            It is important to know that despite this being a 'p' element, it is
+            still a block element! It takes up it's own space even if it is
+            inside of other block elements!
+          </p>
+        </div>
 
-            <p><span class="span">Span One</span> <span class="span">Span Two</span> This is to show you that "p" and "span" take the same space and can share lines! But only if you wrap the "span" into the "p"</p>
-            
+        <p>
+          <span class="span">Span One</span>
+          <span class="span">Span Two</span> This is to show you that "p" and
+          "span" take the same space and can share lines! But only if you wrap
+          the "span" into the "p"
+        </p>
+
+        <p>
+          This is Going to be about Block and Inline elements and the focus of
+          proper structuring of the code!
+        </p>
+        <section id="semantic__info">
+          <div class="semantic__info structure">
+            <h3>
+              It is Important to remember these and to use this structure.
+            </h3>
+            <ul>
+              <li>
+                <p>
+                  Use the "header" tag in order to define the header of a
+                  section or page.
+                </p>
+              </li>
+              <li>
+                <p>Use the "nav" tag to define the navigation of a page.</p>
+              </li>
+              <li>
+                <p>Use the "main" tag to define the main content of a page.</p>
+              </li>
+              <li>
+                <p>
+                  Use the "section" tag to define a section of a page. It is
+                  important to note that you can use the "section" tag within
+                  other block elements. Examples being; "header", "nav", "main",
+                  "footer"
+                </p>
+              </li>
+              <li>
+                <p>
+                  Use the "footer" tag to define the footer of a section or
+                  page. It is important to note that this is where EVERY major
+                  website uses this section for copyright, contact, and other
+                  information.
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div class="semantic__info reason-why">
+            <h3>Why is this important?</h3>
+            <h6>Here is the answer to that very question:</h6>
+            <ul>
+              <li>
+                <p>Better accessibility for those who use screen readers!</p>
+              </li>
+              <li>
+                <p>Improves SEO [Search Engine Optimization]</p>
+              </li>
+              <li>
+                <p>
+                  Not only is it easier to read and maintain for you, but it
+                  also makes it easier to help other developers whom might be
+                  sharing the workspace!
+                </p>
+              </li>
+            </ul>
             <p>
-            This is Going to be about Block and Inline elements and the focus of proper
-            structuring of the code!
+              Using nothing but the "div" tag can make your code harder to read
+              and maintain, and it can also make it harder for others to
+              understand your code. On top of all of that, it WILL be harder to
+              style in the future.
             </p>
-            <img src="./semetic.element.info.PNG" alt="Important structure of coding!">
-            <img src="./important.notice.for.sementic.elements.PNG" alt="An important reminder to keep things PRETTY!!!!!!!">
+          </div>
         </section>
+      </section>
     </main>
     <footer>
-        <p class="footer close__out">Thanks for checking me out!</p>
+      <p class="footer close__out">
+        Thanks for checking me out! If you have any questions, feel free to
+        contact me! Or, go check out my
+        <a href="https://github.com/SpaceCoderEd" target="_blank">Github</a>
+        profile!
+      </p>
     </footer>
   </body>
 </html>
